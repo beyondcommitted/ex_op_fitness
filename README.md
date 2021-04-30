@@ -93,6 +93,7 @@ of this document.
 ![Login](https://github.com/beyondcommitted/ex_op_fitness/blob/main/public/img/Login.png?raw=true)
 ![Dashboard](https://github.com/beyondcommitted/ex_op_fitness/blob/main/public/img/Dashboard.png?raw=true)
 ![Completion Schedule](https://github.com/beyondcommitted/ex_op_fitness/blob/main/public/img/CompletionSchedule.png?raw=true)
+![Color Palette](public\img\ColorPalette.jpeg)
 
 ---
 
