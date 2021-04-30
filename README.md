@@ -32,7 +32,14 @@ or leave comments.
 ---
 
 ```
-We’re going to give our users an experience to make their lives a lot better. We can generate a workout for your daily routine. Six different exercises for six days a week. Our options are a vast variety between 30, 60, and 90 minute intervals. With a click of a button, our users have a chance to set the pace for their daily health style as well as keep up the high intensity fit for your needs.
+We’re going to give our users an experience to make
+their lives a lot better. We can generate a workout
+for your daily routine. Six different exercises for
+six days a week. Our options are a vast variety 
+between 30, 60, and 90 minute intervals. With a 
+click of a button, our users have a chance to set
+the pace for their daily health style as well as
+keep up the high intensity fit for your needs.
 ```
 
 ## Contributions
@@ -85,7 +92,7 @@ of this document.
 ![SignUp](https://github.com/beyondcommitted/ex_op_fitness/blob/main/public/img/SignUp.png?raw=true)
 ![Login](https://github.com/beyondcommitted/ex_op_fitness/blob/main/public/img/Login.png?raw=true)
 ![Dashboard](https://github.com/beyondcommitted/ex_op_fitness/blob/main/public/img/Dashboard.png?raw=true)
-![Completion Schedule](public\img\CompletionSchedule.png)
+![Completion Schedule](https://github.com/beyondcommitted/ex_op_fitness/blob/main/public/img/CompletionSchedule.png?raw=true)
 
 ---
 
