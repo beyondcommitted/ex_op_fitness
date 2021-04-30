@@ -5,7 +5,8 @@ class Signup extends Component {
         super(props)
         this.state = {
             username: '', 
-            password: ''
+            password: '',
+            email: '',
         };
     }
 
