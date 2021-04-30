@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# EX_OP Fitness
+## Description
+```
+Ex-Ops fitness app is an application that provides a selection of effective workouts for its users. Users receive a generated workout based on how much time they are able to spend in the gym. Once the workout is completed by the user, they will be able to give the workout a rating or leave comments.
+```
+## Criteria
+---
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Table of Contents
+---
 
-In the project directory, you can run:
+* [Description](#Description)
+* [Criteria](#Criteria)
+* [Usage](#Usage)
+* [License](#License)
+* [Contributions](#Contributions)
+* [Questions](#Questions)
 
-### `npm start`
+## Usage
+---
+```
+We’re going to give our users an experience to make their lives a lot better. We can generate a workout for your daily routine. Six different exercises for six days a week. Our options are a vast variety between 30, 60, and 90 minute intervals. With a click of a button, our users have a chance to set the pace for their daily health style as well as keep up the high intensity fit for your needs. 
+```
+## Contributions
+---
+Rough Breakdown of Tasks: 
+* Wire-framing and CSS
+* User account creation
+* Log in/log out functionality
+* Generating random workout
+* Rating Workouts
+* Saving workouts
+* Workout Database
+---
+Breon: 
+* Wire-Framing - 04/30/2021
+* Workout Database - 05/06/2021
+* Generating random Workout from database - 05/04/2021
+* CSS - 05/08/2021
+---
+Brianna: 
+* Generating random workout from database - 05/04/2021
+* Saving Workouts - 05/07-2021
+* Rating Workouts - 05/05/2021
+---
+Kaid:
+* Log in/log out functionality - 05/03/2021
+* User account creation 05/04/2021
+* CSS - 05/08/2021
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```
+If you would like to make any contributions to this application
+feel free to reach me at the email located in the questions section
+of this document.
+```
+## WireFrame
+![SignUp](public\img\SignUp.png)
+![Login](public\img\Login.png)
+![Dashboard](public\img\Dashboard.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
+## Technologies
+Technologies:
+* React
+* Node.js
+* Okta Authentication API
+* MongoDB
+* Firebase
+* Express Web Server
+* Mongoose or Sequalize
+* Heroku
 
-### `npm test`
+## License
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This application is  not licensed <img src="https://img.shields.io/badge/license-Unlicense-blue.svg"></img>
 
-### `npm run build`
+## Questions
+---
+If you have questions about this application please contact me at my <a href="beyond.committed@gmail.com">business e-mail</a>.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Below are the needed links to review this application:
