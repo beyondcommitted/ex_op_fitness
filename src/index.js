@@ -4,6 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// Connection String
+// mongodb+srv://beyondcommitted:2Myaas14@ex-op-fitness.04c3d.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
