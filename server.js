@@ -19,5 +19,5 @@ require('dotenv').config();
  });
 
  app.listen(port, () => {
-     console.log(`Server is listneing on port: ${port}`);
+     console.log(`Server is listening on port: ${port}`);
  });
