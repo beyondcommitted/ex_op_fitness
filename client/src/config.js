@@ -10,7 +10,6 @@ const oktaAuthConfig = {
 const oktaSignInConfig = {
   baseUrl: process.env.REACT_APP_OKTA_BASE_URL,
   clientId: process.env.REACT_APP_OKTA_CLIENT_ID,
-  clientId: "0oaohy65bzJcmdlvv5d6",
   redirectUri: window.location.origin + "/login/callback",
   // Additional documentation on config options can be found at https://github.com/okta/okta-signin-widget#basic-config-options
   features: {
