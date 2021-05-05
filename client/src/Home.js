@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, useHistory } from "react-router-dom";
 import { useOktaAuth } from "@okta/okta-react";
+import './home.css';
 
 const Home = () => {
   const history = useHistory();
@@ -20,7 +21,8 @@ const Home = () => {
 
   return (
     <div>
-      <Link to="/">Home</Link>
+      <Link to="/">HomePage</Link>
+      <h1>Ex_Op Fitness</h1>
       <br />
       <Link to="/protected">Protected</Link>
       <br />
