@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.js": "/static/js/main.b79d6754.chunk.js",
+    "main.js.map": "/static/js/main.b79d6754.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2c339543.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2c339543.js.map",
+    "static/css/2.660e9805.chunk.css": "/static/css/2.660e9805.chunk.css",
+    "static/js/2.1f6801e6.chunk.js": "/static/js/2.1f6801e6.chunk.js",
+    "static/js/2.1f6801e6.chunk.js.map": "/static/js/2.1f6801e6.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.660e9805.chunk.css.map": "/static/css/2.660e9805.chunk.css.map",
+    "static/js/2.1f6801e6.chunk.js.LICENSE.txt": "/static/js/2.1f6801e6.chunk.js.LICENSE.txt",
+    "static/media/okta-sign-in.min.css": "/static/media/yubikeyDemo.5ebed9d6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2c339543.js",
+    "static/css/2.660e9805.chunk.css",
+    "static/js/2.1f6801e6.chunk.js",
+    "static/js/main.b79d6754.chunk.js"
+  ]
+}
