@@ -2,7 +2,6 @@
   "name": "ex_op_fitness",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:3001",
   "dependencies": {
     "@okta/okta-react": "^5.1.1",
     "@okta/okta-signin-widget": "^5.6.0",
