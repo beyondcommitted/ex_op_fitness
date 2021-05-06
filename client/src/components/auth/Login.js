@@ -37,7 +37,7 @@ export default withOktaAuth(
     render() {
       if (this.state.authenticated === null) return null;
       return this.state.authenticated ? (
-        <Redirect to={{ pathname: '' }} />
+        <Redirect to="/test"  />
       ) : (
         <SignInWidget
           baseUrl={this.props.baseUrl}
@@ -48,3 +48,5 @@ export default withOktaAuth(
     }
   }
 );
+
+//delete
