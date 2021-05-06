@@ -29,7 +29,6 @@ const AppWithRouterAccess = () => {
         <SecureRoute path="/Dashboard" component={Dashboard} />
         <Route path="/login" render={() => <Login config={oktaSignInConfig} />}/>
         <Route path="/login/callback" component={LoginCallback} />
-
         <Route path="/test" >  Test </Route>
         
       </Switch>
