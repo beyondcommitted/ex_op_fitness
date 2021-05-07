@@ -2,6 +2,7 @@ import React from "react";
 import { useHistory } from "react-router-dom";
 import { useOktaAuth } from "@okta/okta-react";
 import './dashboard.css';
+import Rating from "./ratings/index";
 
 
 
@@ -29,14 +30,15 @@ const Dashboard = () => {
         <h2>Workout Dashboard</h2>
         <h3>Select a workout</h3>
         <br />
-        <div class="card"><p>"Generated Workout goes here"</p></div>
+        <div className="card"><p>"Generated Workout goes here"</p></div>
         <button type = "button">30 Minute Workout</button>
         <br />
-        <div class="card"><p>"Generated Workout goes here"</p></div>
+        <Rating />
+        <div className="card"><p>"Generated Workout goes here"</p></div>
         
         <button type = "button">60 Minute Workout</button>
         <br />
-        <div class="card"><p>"Generated Workout goes here"</p></div>
+        <div className="card"><p>"Generated Workout goes here"</p></div>
         <button type = "button">90 Minute Workout</button>
         <br />
         
