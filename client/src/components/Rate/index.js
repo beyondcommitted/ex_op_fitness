@@ -2,10 +2,12 @@ import React, { useMemo, useState } from 'react';
 import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-export default Rate = ({count, rating, color, onRating}) => {
+const Rate = ({count, rating, color, onRating}) => {
     const [hoverRating, setHoverRating] = useState(0)
 
-    const getColor = index => {
+
+    const starRating = useMemo((
+     getColor = index => {
         if(hoverRating >= index) {
             return color.filled;
         } else if(!hoverRating && rating >= index) {
@@ -13,9 +15,7 @@ export default Rate = ({count, rating, color, onRating}) => {
         }
 
         return color.unfilled;
-    }
-
-    const starRating = useMemo(() => {
+    }) => {
         return Array(count)
         .fill(0)
         .map((_, i) => i + 1)
@@ -30,7 +30,7 @@ export default Rate = ({count, rating, color, onRating}) => {
                 onMouseLeave={() => setHoverRating(0)}
             />
         )
-    }, [count, rating, hoverRating])
+    }, [count, rating, onRating, hoverRating, color.filled, color.unfilled])
     return (
         <div>
             {starRating}
@@ -57,3 +57,4 @@ Rate.defaultProps = {
         unfilled: "#B6D0F2"
     }
 }
+export default Rate
