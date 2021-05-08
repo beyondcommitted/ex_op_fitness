@@ -3,6 +3,7 @@ import { useHistory } from "react-router-dom";
 import { useOktaAuth } from "@okta/okta-react";
 import "./dashboard.css";
 import Rating from "./ratings/index";
+import PickExercise from "./RandomWorkout/pickExercises";
 
 const Dashboard = () => {
   const history = useHistory();
@@ -30,7 +31,7 @@ const Dashboard = () => {
       <div className="card">
         <p>"Generated Workout goes here"</p>
       </div>
-      <button type="button">30 Minute Workout</button>
+      <PickExercise time={30} />
       <br />
       <Rating />
       <div className="card">

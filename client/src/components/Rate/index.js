@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from "react";
+import React, { useState } from "react";
 import PropTypes from "prop-types";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
@@ -11,38 +11,9 @@ const Rate = ({ count = 5, rating, color, onRating }) => {
     } else if (!hoverRating && rating >= index) {
       return color.filled;
     }
-
     return color.unfilled;
   };
-  //   const starRating = useMemo(
-  //     (
-  //       getColor = (index) => {
-  //         if (hoverRating >= index) {
-  //           return color.filled;
-  //         } else if (!hoverRating && rating >= index) {
-  //           return color.filled;
-  //         }
 
-  //         return color.unfilled;
-  //       }
-  //     ) => {
-  //       return Array(count)
-  //         .fill(0)
-  //         .map((_, i) => i + 1)
-  //         .map((idx) => (
-  //           <FontAwesomeIcon
-  //             key={idx}
-  //             className="cursor-pointer"
-  //             icon="star"
-  //             onClick={() => onRating(idx)}
-  //             style={{ color: getColor(idx) }}
-  //             onMouseEnter={() => setHoverRating(idx)}
-  //             onMouseLeave={() => setHoverRating(0)}
-  //           />
-  //         ));
-  //     },
-  //     [count, rating, onRating, hoverRating, color.filled, color.unfilled]
-  //   );
   const starRating = Array(count)
     .fill(0)
     .map((_, i) => i + 1)
@@ -57,17 +28,14 @@ const Rate = ({ count = 5, rating, color, onRating }) => {
         onMouseLeave={() => setHoverRating(0)}
       />
     ));
-  return <div>TEST{starRating}</div>;
+  return <div>{starRating}</div>;
 };
 
 Rate.propTypes = {
   count: PropTypes.number,
   rating: PropTypes.number,
   onchange: PropTypes.func,
-  color: {
-    filled: PropTypes.string,
-    unfilled: PropTypes.string,
-  },
+  color: PropTypes.object,
 };
 
 Rate.defaultProps = {
