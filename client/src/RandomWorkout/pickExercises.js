@@ -8,26 +8,28 @@ export default function PickExercises({ time }) {
     event.preventDefault();
     axios.get("/randomexercises").then(function (response) {
       const allExercise = response.data;
-
-      function random_item(items) {
-        return items[Math.floor(Math.random() * items.length)];
-      }
-
+      const workout = [];
       if (time === 30) {
-        const thirtyMinute = [];
         for (let i = 0; i < 4; i++) {
-          console.log(allExercise[i]);
-          thirtyMinute.push(random_item(allExercise
-            
-            
-            ));
+          const jdx = Math.floor(Math.random() * allExercise.length);
+          workout.push(allExercise[jdx]);
         }
-        setExercise(thirtyMinute);
+      } else if (time === 60) {
+        for (let i = 0; i < 7; i++) {
+          const jdx = Math.floor(Math.random() * allExercise.length);
+          workout.push(allExercise[jdx]);
+        }
+      } else if (time === 90) {
+        for (let i = 0; i < 10; i++) {
+          const jdx = Math.floor(Math.random() * allExercise.length);
+          workout.push(allExercise[jdx]);
+        }
       }
-      console.log();
+      workout.length && setExercise(workout);
     });
-    console.log(exercise);
   }
+  console.log(exercise);
+
   return (
     <div>
       <button type="button" onClick={handleClick}>

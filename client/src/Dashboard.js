@@ -38,12 +38,12 @@ const Dashboard = () => {
         <p>"Generated Workout goes here"</p>
       </div>
 
-      <button type="button">60 Minute Workout</button>
+      <PickExercise time={60} />
       <br />
       <div className="card">
         <p>"Generated Workout goes here"</p>
       </div>
-      <button type="button">90 Minute Workout</button>
+      <PickExercise time={90} />
       <br />
     </div>
   );
