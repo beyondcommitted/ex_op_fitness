@@ -89,11 +89,11 @@ of this document.
 
 ## WireFrame
 
-![SignUp](https://github.com/beyondcommitted/ex_op_fitness/blob/main/public/img/SignUp.png?raw=true)
-![Login](https://github.com/beyondcommitted/ex_op_fitness/blob/main/public/img/Login.png?raw=true)
-![Dashboard](https://github.com/beyondcommitted/ex_op_fitness/blob/main/public/img/Dashboard.png?raw=true)
-![Completion Schedule](https://github.com/beyondcommitted/ex_op_fitness/blob/main/public/img/CompletionSchedule.png?raw=true)
-![Color Palette](https://github.com/beyondcommitted/ex_op_fitness/blob/main/public/img/ColorPalette.jpeg?raw=true)
+![SignUp](https://github.com/beyondcommitted/ex_op_fitness/blob/main/client/public/img/SignUp.png?raw=true)
+![Login](https://github.com/beyondcommitted/ex_op_fitness/blob/main/client/public/img/Login.png?raw=true)
+![Dashboard](https://github.com/beyondcommitted/ex_op_fitness/blob/main/client/public/img/Dashboard.png?raw=true)
+![Completion Schedule](https://github.com/beyondcommitted/ex_op_fitness/blob/main/client/public/img/CompletionSchedule.png?raw=true)
+![Color Palette](https://github.com/beyondcommitted/ex_op_fitness/blob/main/client/public/img/ColorPalette.jpeg?raw=true)
 
 ---
 
