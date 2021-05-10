@@ -1,7 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import AppWithRouterAccess from "./AppWithRouterAccess";
-import {Container} from 'react-bootstrap'
+import "bootstrap/dist/css/bootstrap.min.css";
+import {Container} from 'react-bootstrap';
+
+
 
 const App = () => (
   <Container>

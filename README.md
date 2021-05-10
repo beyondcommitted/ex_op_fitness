@@ -23,8 +23,10 @@ or leave comments.
 - [Description](#Description)
 - [Criteria](#Criteria)
 - [Usage](#Usage)
-- [License](#License)
 - [Contributions](#Contributions)
+- [Mock-Up](#Mock-Up)
+- [Technologies](#Technologies)
+- [License](#License)
 - [Questions](#Questions)
 
 ## Usage
@@ -87,19 +89,18 @@ feel free to reach me at the email located in the questions section
 of this document.
 ```
 
-## WireFrame
+## Mock-Up
 
-![SignUp](https://github.com/beyondcommitted/ex_op_fitness/blob/main/client/public/img/SignUp.png?raw=true)
-![Login](https://github.com/beyondcommitted/ex_op_fitness/blob/main/client/public/img/Login.png?raw=true)
-![Dashboard](https://github.com/beyondcommitted/ex_op_fitness/blob/main/client/public/img/Dashboard.png?raw=true)
+
+![Login](https://github.com/beyondcommitted/ex_op_fitness/blob/main/client/public/img/ColoredFrame1.png?raw=true)
+![Dashboard](https://github.com/beyondcommitted/ex_op_fitness/blob/main/client/public/img/ColoredFrame2.png?raw=true)
 ![Completion Schedule](https://github.com/beyondcommitted/ex_op_fitness/blob/main/client/public/img/CompletionSchedule.png?raw=true)
 ![Color Palette](https://github.com/beyondcommitted/ex_op_fitness/blob/main/client/public/img/ColorPalette.jpeg?raw=true)
+![UI/UX](https://github.com/beyondcommitted/ex_op_fitness/blob/main/client/public/img/UX.png?raw=true)
 
 ---
 
-## Technologies
-
-Technologies:
+## Technologies:
 
 - React
 - Node.js

@@ -4,6 +4,7 @@ import { useOktaAuth } from "@okta/okta-react";
 import "./dashboard.css";
 import Rating from "./ratings/index";
 import PickExercise from "./RandomWorkout/pickExercises";
+import Navbar from "./components/ExerciseTracker/navbar";
 
 const Dashboard = () => {
   const history = useHistory();
@@ -22,18 +23,25 @@ const Dashboard = () => {
   );
 
   return (
-    <div className=" d-flex row justify-content-center align-items-center">
+    <div className="dashboard d-flex row justify-content-center align-items-center">
       <div>{button}</div>
 
       <div
         className="jumbotron d-flex row justify-content-center align-items-center"
-        style={{ height: "200px", width: "300px" }}
+        style={{ height: "600px", width: "350px" }}
       >
-        <h1>EX_OP Fitness</h1>
+        <h1>
+          EX_OP <br />
+          Fitness
+        </h1>
+        <h2>
+          Workout <br />
+          Dashboard
+        </h2>
+        <Navbar />
       </div>
 
       <div>
-        <h2>Workout Dashboard</h2>
         <h3>Select a workout</h3>
       </div>
       <div
