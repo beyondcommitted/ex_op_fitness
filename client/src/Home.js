@@ -20,13 +20,18 @@ const Home = () => {
   );
 
   return (
-    <div>
-      <Link to="/">HomePage</Link>
-      <h1>Ex_Op Fitness</h1>
-      <br />
-      <Link to="/dashboard">Protected</Link>
-      <br />
-      {button}
+    <div className=" d-flex row justify-content-center align-items-center">
+      <Link to="/"></Link>
+      <div
+        className="jumbotron d-flex row justify-content-center align-items-center"
+        style={{ height: "500px", width: "300px" }}
+      >
+        <h1>EX_OP Fitness</h1>
+      </div>
+      <Link to="/dashboard"></Link>
+      <div className=" d-flex col justify-content-center align-items-center">
+        {button}
+      </div>
     </div>
   );
 };

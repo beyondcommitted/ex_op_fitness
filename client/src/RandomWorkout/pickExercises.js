@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import DisplayExercises from "./displayExercises";
 
 export default function PickExercises({ time }) {
   console.log(time);
@@ -10,19 +11,34 @@ export default function PickExercises({ time }) {
       const allExercise = response.data;
       const workout = [];
       if (time === 30) {
-        for (let i = 0; i < 4; i++) {
+        for (let i = 0; i < 5; i++) {
           const jdx = Math.floor(Math.random() * allExercise.length);
-          workout.push(allExercise[jdx]);
+          if (workout.indexOf(allExercise[jdx]) === -1) {
+            workout.push(allExercise[jdx]);
+          } else {
+            workout.push(allExercise[jdx + 1]);
+            console.log("Replaced Duplicate");
+          }
         }
       } else if (time === 60) {
-        for (let i = 0; i < 7; i++) {
+        for (let i = 0; i < 8; i++) {
           const jdx = Math.floor(Math.random() * allExercise.length);
-          workout.push(allExercise[jdx]);
+          if (workout.indexOf(allExercise[jdx]) === -1) {
+            workout.push(allExercise[jdx]);
+          } else {
+            workout.push(allExercise[jdx + 1]);
+            console.log("Replaced Duplicate");
+          }
         }
       } else if (time === 90) {
-        for (let i = 0; i < 10; i++) {
+        for (let i = 0; i < 12; i++) {
           const jdx = Math.floor(Math.random() * allExercise.length);
-          workout.push(allExercise[jdx]);
+          if (workout.indexOf(allExercise[jdx]) === -1) {
+            workout.push(allExercise[jdx]);
+          } else {
+            workout.push(allExercise[jdx + 1]);
+            console.log("Replaced Duplicate");
+          }
         }
       }
       workout.length && setExercise(workout);
@@ -32,8 +48,9 @@ export default function PickExercises({ time }) {
 
   return (
     <div>
+      {exercise.length ? <DisplayExercises exercise={exercise} /> : null}
       <button type="button" onClick={handleClick}>
-        {time} Minutes Workout
+        {time} Minute Workout
       </button>
     </div>
   );

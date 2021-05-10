@@ -22,29 +22,41 @@ const Dashboard = () => {
   );
 
   return (
-    <div>
-      {button}
-      <h1>Ex-Op Fitness</h1>
-      <h2>Workout Dashboard</h2>
-      <h3>Select a workout</h3>
-      <br />
-      <div className="card">
-        <p>"Generated Workout goes here"</p>
-      </div>
-      <PickExercise time={30} />
-      <br />
-      <Rating />
-      <div className="card">
-        <p>"Generated Workout goes here"</p>
+    <div className=" d-flex row justify-content-center align-items-center">
+      <div>{button}</div>
+
+      <div
+        className="jumbotron d-flex row justify-content-center align-items-center"
+        style={{ height: "200px", width: "300px" }}
+      >
+        <h1>EX_OP Fitness</h1>
       </div>
 
-      <PickExercise time={60} />
-      <br />
-      <div className="card">
-        <p>"Generated Workout goes here"</p>
+      <div>
+        <h2>Workout Dashboard</h2>
+        <h3>Select a workout</h3>
       </div>
-      <PickExercise time={90} />
-      <br />
+      <div
+        className="card d-flex justify-content-center align-items-center"
+        style={{ height: "500px", width: "700px" }}
+      >
+        <PickExercise time={30} />
+        <Rating />
+      </div>
+      <div
+        className="card d-flex justify-content-center align-items-center"
+        style={{ height: "500px", width: "700px" }}
+      >
+        <PickExercise time={60} />
+        <Rating />
+      </div>
+      <div
+        className=" card d-flex justify-content-center align-items-center"
+        style={{ height: "550px", width: "700px" }}
+      >
+        <PickExercise time={90} />
+        <Rating />
+      </div>
     </div>
   );
 };
