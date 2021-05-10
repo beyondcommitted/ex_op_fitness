@@ -20,7 +20,7 @@ const Login = ({ config }) => {
   if (authState.isPending) return null;
 
   return authState.isAuthenticated ? (
-    <Redirect to="/test" />
+    <Redirect to="/login" />
   ) : (
     <OktaSignInWidget config={config} onSuccess={onSuccess} onError={onError} />
   );

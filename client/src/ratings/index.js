@@ -8,7 +8,7 @@ const Rating = () => {
     <>
       <div className="row">
         <div className="col stars-center">
-          <h3>Rate This Workout</h3>
+          <h5>Rate This Workout</h5>
           <Rate rating={rating} onRating={(rate) => setRating(rate)} />
           <p>Rating - {rating} stars</p>
         </div>
